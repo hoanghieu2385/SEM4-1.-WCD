@@ -27,6 +27,34 @@
 <body>
 <h1>Class rooms</h1>
 <div class="container">
+    <div class="container">
+        <form method="post" action="classroom">
+            <div class="row">
+<%--                <div class="col-6">--%>
+<%--                    <div class="form-group">--%>
+<%--                        <label>Class Code</label>--%>
+<%--                        <input class="form-control" type="text" id="id_class", name="id_class" placeholder="Enter an id">--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label>Class Name</label>
+                        <input class="form-control" type="text" id="class_name", name="class_name" placeholder="Enter an class name">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label>Number</label>
+                        <input class="form-control" type="text" id="number_member", name="number_member" placeholder="Enter an class name">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Add ClassRoom</button>
+        </form>
+    </div>
+
     <table class="table table-striped">
         <thead>
         <th>Id</th>
